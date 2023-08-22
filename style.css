@@ -187,11 +187,16 @@ h1 {
     gap: 10px;
 }
 
-.container-rigth-button-info h4 {
+.rigth-button-link {
     color: #FFF;
-    text-align: right;    
+    text-align: right;
+    text-decoration: none;    
     font-size: 15px;    
-    font-weight: 600;    
+    font-weight: 600;        
+}
+
+.rigth-button-link:hover {
+    text-decoration: underline;
 }
 
 .container-button-main {
